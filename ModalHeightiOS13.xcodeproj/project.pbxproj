@@ -13,6 +13,8 @@
 		99D2999423880C7E007E3C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D2999223880C7E007E3C3C /* Main.storyboard */; };
 		99D2999623880C80007E3C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D2999523880C80007E3C3C /* Assets.xcassets */; };
 		99D2999923880C80007E3C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D2999723880C80007E3C3C /* LaunchScreen.storyboard */; };
+		99D299A123880FCF007E3C3C /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D299A023880FCF007E3C3C /* ChildViewController.swift */; };
+		99D299A3238837CF007E3C3C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 99D299A2238837CF007E3C3C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		99D2999523880C80007E3C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D2999823880C80007E3C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99D2999A23880C80007E3C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D299A023880FCF007E3C3C /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		99D299A2238837CF007E3C3C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		99D2998023880C7E007E3C3C = {
 			isa = PBXGroup;
 			children = (
+				99D299A2238837CF007E3C3C /* README.md */,
 				99D2998B23880C7E007E3C3C /* ModalHeightiOS13 */,
 				99D2998A23880C7E007E3C3C /* Products */,
 			);
@@ -59,6 +64,7 @@
 				99D2998C23880C7E007E3C3C /* AppDelegate.swift */,
 				99D2998E23880C7E007E3C3C /* SceneDelegate.swift */,
 				99D2999023880C7E007E3C3C /* ViewController.swift */,
+				99D299A023880FCF007E3C3C /* ChildViewController.swift */,
 				99D2999223880C7E007E3C3C /* Main.storyboard */,
 				99D2999523880C80007E3C3C /* Assets.xcassets */,
 				99D2999723880C80007E3C3C /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				99D2999923880C80007E3C3C /* LaunchScreen.storyboard in Resources */,
 				99D2999623880C80007E3C3C /* Assets.xcassets in Resources */,
+				99D299A3238837CF007E3C3C /* README.md in Resources */,
 				99D2999423880C7E007E3C3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				99D2999123880C7E007E3C3C /* ViewController.swift in Sources */,
 				99D2998D23880C7E007E3C3C /* AppDelegate.swift in Sources */,
 				99D2998F23880C7E007E3C3C /* SceneDelegate.swift in Sources */,
+				99D299A123880FCF007E3C3C /* ChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
