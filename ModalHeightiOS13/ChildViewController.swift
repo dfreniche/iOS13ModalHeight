@@ -29,6 +29,9 @@ class ChildViewController: UIViewController {
             height = height + v.frame.size.height
         }
         
+        // functional way of doing that, thanks to https://github.com/miguelangel-dev
+        // var height: CGFloat = stackView.subviews.reduce(CGFloat(0.0), { result, v in result + v.frame.size.height })
+        
         // change size of Viewcontroller's view to that height
         self.view.frame.size.height = height
         // reposition the view (if not it will be near the top)
